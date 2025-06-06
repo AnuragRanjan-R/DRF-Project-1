@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+
+# Django Migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Environment
+.env
+.env.*
+venv/
+ENV/
+env/
+*.env
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# pytest
+.pytest_cache/
+.tox/
+.cache/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt

@@ -1,0 +1,13 @@
+-- This file represents the initial migration for the Book model
+-- Run: python manage.py makemigrations
+-- Then: python manage.py migrate
+
+-- The migration will create the following table structure:
+-- books_book (
+--     id UUID PRIMARY KEY,
+--     name VARCHAR(255) NOT NULL,
+--     category VARCHAR(50) NOT NULL,
+--     created_by_id INTEGER NOT NULL REFERENCES auth_user(id),
+--     created_at DATETIME NOT NULL,
+--     updated_at DATETIME NOT NULL
+-- );
