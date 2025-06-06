@@ -40,3 +40,18 @@
 - **Pagination**: Built-in pagination (20 items per page)
 - **CORS**: Configured for frontend integration
 - **Admin Interface**: Django admin integration for easy management
+
+## Setup Instructions
+
+1. **Install Dependencies:**
+```
+pip install -r requirements.txt
+```
+2. **Run Setup Script:**
+```
+python scripts/setup_project.py
+```
+3. **Start Development Server:**
+```
+python manage.py runserver
+```
